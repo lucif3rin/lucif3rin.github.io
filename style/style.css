@@ -1,5 +1,8 @@
 /* Elements */
-
+body {
+    font-family: 'Heebo';
+    align-items: center;
+}
 /* /Elements */
 
 /* Classes */
