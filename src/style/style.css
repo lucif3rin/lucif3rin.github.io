@@ -1,0 +1,171 @@
+/* Elements */
+body {
+  font-family: 'Heebo';
+  background-color: #24272B;
+  margin: 0 auto;
+  color: #dcdcdc;
+  min-height: 100vh;
+  display: flex;
+}
+
+h1 {
+  -webkit-text-fill-color: #004BA8;
+  font-size: 72px;
+  padding: 0px;
+  margin: 0px;
+}
+/* /Elements */
+
+
+/* Classes */
+.content {
+  display: block;
+  margin-top: 5%;
+  justify-self: left;
+
+}
+.navbar {
+  position: absolute;
+  background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  left: 0;
+  right: 0;
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item a {
+  color: #FDCA40;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.nav-item a:hover {
+  animation: grow .3s;
+  scale: 150%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.start {
+  opacity: 0;
+}
+ 
+.animation {
+  animation: fade .3s forwards;
+}
+
+.holder-animation {
+  animation: holder 4s;
+}
+/* /Classes */
+
+
+/* IDs */
+#self_portrait {
+  justify-content: left;
+  border-radius: 100%;
+}
+
+#slider {
+  width: 772px;
+  display: flex;
+  gap: 15px;
+  font-size: 72px;
+}
+
+#sliderValue {
+  display: flex;
+  color: #FDCA40;
+  font-weight: 700;
+}
+/* /IDs */
+
+
+/* At-Rules */
+@keyframes grow {
+  0% {
+    scale: 100%;
+  }
+  100% {
+    scale: 150%;
+  }
+}
+@keyframes fade {
+  0%{
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+ 
+@keyframes holder {
+  0%{
+    opacity: 1;
+  }
+  95%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+/* /At-Rules */
+
+
+/* Fonts */
+/* Heebo */
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic-neue-light-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.comic-neue-bold-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* /Heebo */
+/* /Fonts */

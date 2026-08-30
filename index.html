@@ -8,7 +8,8 @@
         <meta name="keywords" content="HTML, CSS, Javascript, Typescript, C/++, Electrical Engineering">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta lang="en">
-        <link rel="stylesheet" href="../style/style.css">
+        <link rel="stylesheet" href="src/style/style.css">
+        <script src="src/scripts/slider.js"></script>
         
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +17,22 @@
         <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Heebo:wght@100..900&display=swap" rel="stylesheet">
         <!--/Fonts-->
     </head>
-    <body>
-        <h1>Test</h1>
+    <body class="center">
+        <div>
+            <ul class="navbar">
+               <li class="nav-item"><a>About</a></li>
+               <li class="nav-item"><a>Resume</a></li> 
+               <li class="nav-item"><a>Portfolio</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Welcome!</h1>
+            <div id="slider">
+                <div class="span">
+                My name is Johnathan, and I'm a...
+                <div class="span" id="sliderValue"></div>
+            </div>
+                
+        </div>
     </body>
 </html>
